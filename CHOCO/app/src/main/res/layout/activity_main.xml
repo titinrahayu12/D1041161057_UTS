@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bggradient"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="KOMPONEN ANDROID"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:background="#FF808000"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="ACTIVITY"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#FF808000"
+        android:layout_marginTop="25dp"
+        android:onClick="btn_1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="INTENT"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#FF808000"
+        android:layout_marginTop="25dp"
+        android:onClick="btn_2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="SERVICE"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#FF808000"
+        android:layout_marginTop="25dp"
+        android:onClick="btn_3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="CONTENT PROVIDER"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#FF808000"
+        android:layout_marginTop="25dp"
+        android:onClick="btn_4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="BROADCAST RECEIVER"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#FF808000"
+        android:layout_marginTop="20dp"
+        android:onClick="btn_5"/>
+
+
+</LinearLayout>
+

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name1"><b>Materi Activity</b></string>
+    <string name="Materi1">Sebuah Activity akan menampilkan antarmuka aplikasi di layar, sebagai contoh ketika kita membuka sebuah aplikasi maka akan muncul tampilan dari aplikasi tersebut.</string>
+
+    <string name="app_name2">Materi Intent</string>
+    <string name="Materi2">Mengirim atau menerima sebuahperintah dari aplikasi lain.\n</string>
+
+    <string name="app_name3">Materi Service</string>
+    <string name="Materi3">Service adalah komponen yang berjalan di latar belakang. Sebagai contoh, Service bisa memainkan musik di latar belakang saat pengguna berada dalam aplikasi yang berbeda, atau mungkin mengambil data melalui jaringan tanpa menghalangi interaksi pengguna dengan aktivitas.</string>
+
+    <string name="app_name4">Materi Content Provider</string>
+    <string name="Materi4">ContentProvider adalah penyedia konten dari satu aplikasi ke aplikasi lain atas perintah tertentu. Perintah tersebut ditangani oleh sebuah method dari class ContentResolver. Data dapat disimpan dalam sistem file, database atau di tempat lainnya.ContentProvider diimplementasikan sebagai subclass dari class ContentProvider dan harus menerapkan satu set standar API yang memungkinkan aplikasi lain untuk melakukan transaksi.</string>
+
+    <string name="app_name5">Materi Boradcast Receiver</string>
+    <string name="Materi5">Broadcast Receiver berfungsi menerima pesan intent dari aplikasi lain atau dari sistem. Sebagai contoh, suatu aplikasi mengirim pesan berisi perintah tertentu untuk aplikasi lain bahwa beberapa data telah diunduh ke perangkat dan tersedia bagi mereka untuk menggunakan apklikasi tersebut, jadi Broadcast Receiver inilah yang akan menangani komunikasi ini dan akan melakukan tindakan yang tepat.Sebuah Broadcast Receiver diimplementasikan sebagai subclass dari class BroadcastReceiver dan setiap pesan akan dikirim dan diterima sebagai objek Intent.</string>
+
+</resources>
